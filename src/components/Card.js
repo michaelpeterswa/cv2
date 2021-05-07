@@ -1,3 +1,5 @@
+// Card.js component
+
 import React from "react"
 import Photo from "../components/Photo"
 
