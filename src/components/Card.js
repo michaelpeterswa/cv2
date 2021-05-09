@@ -4,17 +4,13 @@ import React from "react"
 import Photo from "../components/Photo"
 import Name from "../components/Name"
 import Bar from "../components/Bar"
-import Links from "../components/Links"
+import IconLinks from "./IconLinks"
 import Weather from "../components/Weather"
+import Button from "../components/Button"
 
 let data = {
     "name": "Michael Peters",
-    "bio": "Gonzaga Univ.",
-    "education": [
-        "test",
-        "test2",
-        "test3"
-    ]
+    "bio": "Gonzaga Univ."
 } 
 
 export default function Card() {
@@ -23,9 +19,13 @@ export default function Card() {
         <Photo className="self-center"/>
         <Name name={data.name} bio={data.bio} className="self-center"/>
         <Bar/>
-        <Links/>
+        <IconLinks/>
         <Bar/>
         <Weather/>
+        <Bar/>
+        <Button title="Resume" link="https://michaelpeterswa.com/resume.pdf"/>
+        <Button title="Twitter" link="https://twitter.com/michaelpeterswa"/>
+        <Button title="Instagram" link="https://instagram.com/michaelpeterswa"/>
     </div>
   )
 }
