@@ -23,9 +23,9 @@ export default function Card() {
         <Bar/>
         <Weather/>
         <Bar/>
-        <Button title="Resume" link="https://michaelpeterswa.com/resume.pdf"/>
+        <Button title="Resume" link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
         <Button title="Twitter" link="https://twitter.com/michaelpeterswa"/>
-        <Button title="Instagram" link="https://instagram.com/michaelpeterswa"/>
+        <Button title="Instagram" link="https://instagram.com/mptrswa"/>
     </div>
   )
 }
