@@ -10,7 +10,7 @@ import Button from "../components/Button"
 
 let data = {
     "name": "Michael Peters",
-    "bio": "Gonzaga Univ."
+    "bio": "Gonzaga Univ. Alum c/o '21"
 } 
 
 export default function Card() {
@@ -21,7 +21,8 @@ export default function Card() {
         <Bar/>
         <IconLinks/>
         <Bar/>
-        <Weather/>
+        <Weather city="Spokane"/>
+        <Weather city="Seattle"/>
         <Bar/>
         <Button title="Resume" link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
         <Button title="Twitter" link="https://twitter.com/michaelpeterswa"/>
