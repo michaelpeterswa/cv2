@@ -24,7 +24,7 @@ export default function Card() {
         <Weather city="Spokane"/>
         <Weather city="Seattle"/>
         <Bar/>
-        <Button title="Resume" link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"/>
+        <Button title="Resume" link="https://michaelpeterswa.com/resume.pdf"/>
         <Button title="Twitter" link="https://twitter.com/michaelpeterswa"/>
         <Button title="Instagram" link="https://instagram.com/mptrswa"/>
     </div>
