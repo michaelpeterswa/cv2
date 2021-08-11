@@ -10,7 +10,7 @@ import Button from "../components/Button"
 
 let data = {
     "name": "Michael Peters",
-    "bio": "Gonzaga Univ. Alum c/o '21"
+    "bio": "Gonzaga Univ. CS '21 -> Kochava"
 } 
 
 export default function Card() {
